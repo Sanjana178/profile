@@ -1,0 +1,158 @@
+body{
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Indie Flower', cursive;
+  font-size: 17px;
+  font-weight: lighter;
+  background-image: url(https://images.unsplash.com/photo-1508105859382-b487af436eff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.text-ani{
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  color: #f8378e;
+  width: 100%;
+  background-color: white ;
+  background-repeat: repeat;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(https://images.unsplash.com/photo-1508105859382-b487af436eff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: 50% 2.5%;
+}
+
+.text-ani:hover{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: black ;
+  background-repeat: repeat;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-image: url(https://images.unsplash.com/photo-1502741509793-1bf00d85aeff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  /*background-repeat: repeat;*/
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.profile-box{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  background-image: url(https://25.media.tumblr.com/3001a8872eff95532084422a9e3bbb5e/tumblr_mgt8eaMwyS1r75klfo1_250.gif);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.profile-box > img{
+  border-radius: 50%;
+  width: 100px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.card-white{
+  background-image: url(https://images.unsplash.com/photo-1507120410856-1f35574c3b45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding: 8px;
+}
+
+li i{
+  font-size: 50px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+h2{
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+a{
+  font-family: 'Kalam', cursive;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover{
+  font-family: 'Indie Flower', cursive;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h3{
+  color: #7ECE90;
+  display: block;
+  font-size: 37px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p {
+  background-image: url
+}
+
+.fab{
+  color: rgba(200, 200, 200, 1);
+}
+
+.fab:hover{
+  color: #f8378e;
+  text-decoration: overline;
+}
+
+footer #position{
+  bac
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
